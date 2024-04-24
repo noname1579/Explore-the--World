@@ -103,3 +103,42 @@ img{
     padding-right: 800px;
     padding-bottom: 10px;
 }
+
+.common-section{
+    text-align: center;
+    padding: 80px 0;
+}
+.title-wrapper{
+    margin-bottom: 60px;
+}
+.popular-countries .cards{
+    display: flex;
+    justify-content: space-between;
+}
+.popular-countries .card{
+    width: 390px;
+    padding: 35px 15px 20px;
+    border: 1px solid #423434;
+    border-radius: 10px;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+}
+h4{
+    font-size: 25px;
+    color: black;
+    margin: 10px;
+}
+p{
+    color: #311f1f;
+}
+.title{
+    font-size: 35px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.subtitle{
+    font-size: 25px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+}
