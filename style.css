@@ -101,7 +101,7 @@ img{
     letter-spacing: 4px;
     text-transform: uppercase;
     padding-right: 800px;
-    padding-bottom: 10px;
+    padding-top: 180px;
 }
 
 .common-section{
@@ -123,7 +123,7 @@ img{
     letter-spacing: 1.5px;
     line-height: 25px;
 }
-h4{
+.popular-countries .card h4{
     font-size: 25px;
     color: black;
     margin: 10px;
@@ -141,4 +141,24 @@ p{
     font-size: 25px;
     line-height: 1.2;
     letter-spacing: 3px;
+}
+.popular-places{
+    background-color: #dad7d7;
+}
+.popular-places .cards{
+    display: flex;
+    justify-content: space-between;
+}
+.popular-places .card h4{
+    font-size: 19px;
+    color: black;
+    margin: 10px;
+}
+.popular-places .card{
+    margin: 20px;
+    border: 3px #c4a2a2 solid;
+    border-radius: 8px;
+    padding: 35px 15px 20px;
+    letter-spacing: 1.5px;
+    line-height: 25px;
 }
