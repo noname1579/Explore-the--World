@@ -93,15 +93,20 @@ img{
     background-image: url(/images/bg.jpg);
     padding: 200px 0;
 }
+
+.welcome-container {
+    width: 100%;
+}
+
 .welcome-main{
     color: #28356b;
     font-family: "Comfortaa", sans-serif;
     font-size: 80px;
     line-height: 150px;
-    text-align: center;
+    text-align: left;
     letter-spacing: 4px;
     text-transform: uppercase;
-    padding-right: 800px;
+    /* padding-right: 800px; */
     padding-top: 180px;
 }
 
