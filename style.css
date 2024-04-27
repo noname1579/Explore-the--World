@@ -7,10 +7,22 @@
     box-sizing: border-box;
     font-family: "Amaranth", sans-serif;
 }
-body{
-    background-color: rgb(255, 255, 255);
+img{
+    display: inline-block;
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
 }
+html, body{
+    background-color: rgb(255, 255, 255);
 
+    scroll-behavior: smooth;
+}
+.id{
+    text-align: center;
+    margin-bottom: 80px;
+}
 /* ----- HEADER ----- */
 
 a, a:visited, a::hover {
@@ -27,13 +39,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 ul{
     list-style: none;
-}
-img{
-    display: inline-block;
-    vertical-align: top;
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
 }
 .container{
     max-width: 1500px;
@@ -70,7 +75,7 @@ img{
     align-items: center;
 }
 .header{
-    padding: 30px 0;
+    padding: 25px 0;
     position: fixed;
     background-color: #fff;
     top: 0;
@@ -93,15 +98,17 @@ img{
     background-image: url(/images/bg.jpg);
     padding: 200px 0;
 }
+.welcome-container{
+    width: 100%;
+}
 .welcome-main{
     color: #28356b;
     font-family: "Comfortaa", sans-serif;
     font-size: 80px;
     line-height: 150px;
-    text-align: center;
+    text-align: left;
     letter-spacing: 4px;
     text-transform: uppercase;
-    padding-right: 800px;
     padding-top: 180px;
 }
 
@@ -166,8 +173,14 @@ p{
 
 /* ----- PLACES ----- */ 
 .places{
-    display: flex;
+    display: inline-block;
 }
 .place{
-    width: 800px;
+    max-width: 1000px;
+}
+.places h4{
+    padding: 120px 0 20px;
+    font-weight: inherit;
+    font-size: 33px;
+    color: #221650;
 }
