@@ -84,6 +84,22 @@ ul{
     z-index: 100;
     box-shadow: 0 0 8px rgb(0,0,0,0.1);
 }
+/* ----- ABOUT ----- */
+.about{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #e9e7e7;
+}
+.title-about{
+    margin-top: 70px;
+    max-width: 1000px;
+}
+.title-about h2{
+    font-size: 26px;
+    margin: 30px 0;
+    color: #311a1a;
+}
 
 /* ----- WELCOME ----- */
 
