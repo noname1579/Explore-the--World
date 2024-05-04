@@ -10,9 +10,9 @@
 img{
     display: inline-block;
     vertical-align: top;
-    max-width: 100%;
-    height: auto;
     object-fit: cover;
+    height: auto;
+    max-width: 100%;
 }
 html, body{
     background-color: rgb(255, 255, 255);
@@ -85,6 +85,7 @@ ul{
     box-shadow: 0 0 8px rgb(0,0,0,0.1);
 }
 /* ----- ABOUT ----- */
+
 .about{
     display: flex;
     justify-content: center;
@@ -140,12 +141,8 @@ ul{
     justify-content: space-between;
 }
 .popular-countries .card{
-    width: 390px;
-    padding: 35px 15px 20px;
-    border: 1px solid #423434;
-    border-radius: 10px;
-    letter-spacing: 1.5px;
-    line-height: 25px;
+    margin: auto 20px;
+    width: 600px;
 }
 .popular-countries .card h4{
     font-size: 25px;
@@ -195,7 +192,7 @@ p{
     max-width: 1000px;
 }
 .places h4{
-    padding: 120px 0 20px;
+    padding: 100px 0 20px;
     font-weight: inherit;
     font-size: 33px;
     color: #221650;
