@@ -46,12 +46,12 @@ ul{
     margin: 0 auto;
 }
 .logo{
-    font-size: 26px;
+    font-size: clamp(5px, 3vw, 26px);
     letter-spacing: 2px;
     color: rgb(63, 55, 55);
 }
 .header-nav a{
-    font-size: 23px;
+    font-size: clamp(10px, 3.5vw, 23px);
     color: #423434;
     text-decoration: none;
     transition: color 0.3s;
@@ -90,15 +90,14 @@ ul{
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #e9e7e7;
+    background-color: #fff;
 }
 .title-about{
-    margin-top: 70px;
+    margin-top: 50px;
     max-width: 1000px;
 }
 .title-about h2{
     font-size: 26px;
-    margin: 30px 0;
     color: #311a1a;
 }
 
@@ -121,7 +120,7 @@ ul{
 .welcome-main{
     color: #28356b;
     font-family: "Comfortaa", sans-serif;
-    font-size: 80px;
+    font-size: clamp(30px, 6vw, 80px);
     line-height: 150px;
     text-align: left;
     letter-spacing: 4px;
@@ -131,7 +130,7 @@ ul{
 
 .common-section{
     text-align: center;
-    padding: 80px 0;
+    padding: 50px 0;
 }
 .title-wrapper{
     margin-bottom: 60px;
@@ -170,7 +169,7 @@ img {
     width: 100%; 
 }
   
-  .sim-slider {
+.sim-slider {
     max-width: 1000px;
     min-width: 320px;
     margin: 20px auto;
@@ -249,4 +248,37 @@ span.sim-dot {
     background-color: #BBB;
     border-radius: 5px;
     cursor: pointer;
+}
+
+
+
+/* ----- FORM ----- */
+
+.form1{
+    text-align: center;
+    margin: 10;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+}
+.form1 h2 {
+    font-size: 30px;
+    padding: 15px;
+}
+
+input {
+    display: inline-block;
+    margin: 10px auto;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+}
+
+textarea {
+    display: inline-block;
+    margin: 10px auto;
+    border: 2px solid #eee;
+    padding: 10px 20px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
 }
